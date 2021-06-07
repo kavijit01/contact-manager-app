@@ -3,14 +3,19 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { CreateContactComponent } from './create-contact/create-contact.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CreateContactComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NoopAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
