@@ -1,0 +1,15 @@
+<html>
+   <div class ="container">
+        <body class="text-center">
+            <div class="form-signin">
+                <img class="mb-4" src="../../assets/images/contacts.jpg" alt="" width="272" height="100">
+                <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+                <input type="userName" id="userName" class="form-control" placeholder="User Name" [(ngModel)]="username" required autofocus>
+                <br>
+                <input type="password" id="password" class="form-control" placeholder="Password" [(ngModel)]="password" required>
+                <br>            
+                <button class="btn btn-lg btn-primary btn-block" type="submit" (click)=handleLogin() >Sign in</button>
+            </div>
+        </body>
+    </div>  
+</html>

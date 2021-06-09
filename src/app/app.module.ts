@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { CreateContactComponent } from './create-contact/create-contact.component';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    CreateContactComponent
+    CreateContactComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
